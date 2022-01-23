@@ -61,7 +61,7 @@ void processPermutation(const int arr[]) {
     int abDistance = source[arr[0]][arr[1]];
     // если расстояние ГД меньше ГЕ, то комбинация нам подходит
     if (gdDistance < geDistance) {
-        // названия вер
+        // названия вершин
         const std::string names[SIZE] = {"A", "B", "C", "D", "E", "F", "G"};
         // выводим названия вершин
         for (int i = 0; i < SIZE; i++) {
