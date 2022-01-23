@@ -25,7 +25,7 @@ const int target[SIZE][SIZE] = {
         {0, 0, 0, 0, 1, 1, 0}  // Ж
 };
 
-// взвешенные степени
+// степени вершин
 int sourceSum[SIZE];
 int targetSum[SIZE];
 
