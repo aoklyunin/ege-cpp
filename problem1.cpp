@@ -74,13 +74,6 @@ void processPermutation(const int arr[]) {
 
 }
 
-// поменять местами элементы массива arr с индексами l и r
-void swap(int arr[], int l, int r) {
-    int tmp = arr[l];
-    arr[l] = arr[r];
-    arr[r] = tmp;
-}
-
 // функция-генератор перестановок
 void permute(int p[], int pos) {
     // Если мы дошли до последнего элемента
@@ -90,11 +83,11 @@ void permute(int p[], int pos) {
         // Перебираем все оставшиеся элементы
         for (int i = pos; i < SIZE; i++) {
             // меняем местами текущий элемент и перебираемый
-            swap(p, pos, i);
+            std::swap(p[pos], p[i]);
             // Вызываем Рекурсию для следующего элемента
             permute(p, pos + 1);
             // меняем местами обратно
-            swap(p, pos, i);
+            std::swap(p[pos], p[i]);
         }
     }
 }
