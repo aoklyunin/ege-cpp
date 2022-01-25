@@ -29,6 +29,16 @@ const int target[SIZE][SIZE] = {
 int sourceSum[SIZE];
 int targetSum[SIZE];
 
+// получить обратную перестановку
+int *getReversePermutation(const int arr[]) {
+    static int reverse[SIZE];
+    for (int i = 0; i < SIZE; i++) {
+        reverse[arr[i]] = i;
+    }
+    return reverse;
+}
+
+
 // обработка перестановки
 void processPermutation(const int arr[]) {
     // проверяем, что в представлениях совпадают степени вершин
@@ -61,11 +71,13 @@ void processPermutation(const int arr[]) {
     int abDistance = source[arr[0]][arr[1]];
     // если расстояние ГД меньше ГЕ, то комбинация нам подходит
     if (gdDistance < geDistance) {
+        // получаем обратную перестановку
+        int *reverse = getReversePermutation(arr);
         // названия вершин
         const std::string names[SIZE] = {"A", "B", "C", "D", "E", "F", "G"};
         // выводим названия вершин
         for (int i = 0; i < SIZE; i++) {
-            std::cout << names[arr[i]] << " ";
+            std::cout << names[reverse[i]] << " ";
         }
         std::cout << std::endl;
         // выводим расстояния
