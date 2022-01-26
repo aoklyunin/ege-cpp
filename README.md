@@ -5,9 +5,9 @@
 Задания взяты с [сайта Константина Полякова](https://kpolyakov.spb.ru/school/ege.htm).
 
 
-[Java Исходники решений](https://github.com/aoklyunin/ege_java)
+[Java Исходники решений](https://github.com/aoklyunin/ege-java)
 
-[Python Исходники решений](https://github.com/aoklyunin/ege_py)
+[Python Исходники решений](https://github.com/aoklyunin/ege-py)
 
 ## Задание 1
 
