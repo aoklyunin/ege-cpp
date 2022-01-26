@@ -6,25 +6,26 @@ const int SIZE = 7;
 
 //      П1  П2  П3  П4  П5  П6  П7
 const int source[SIZE][SIZE] = {
-        {0,  10, 15, 0,  0,  0,  0}, // П1
-        {10, 0,  0,  13, 17, 0,  0}, // П2
-        {15, 0,  0,  0,  19, 0,  9}, // П3
-        {0,  14, 0,  0,  10, 20, 11}, // П4
-        {0,  17, 19, 10, 0,  0,  20}, // П5
-        {0,  0,  0,  20, 0,  0,  25}, // П6
-        {0,  0,  9,  11, 20, 25, 0}  // П7
+        {0, 0,  0,  9,  0,  0,  7}, // П1
+        {0, 0,  0,  5,  0,  11, 0}, // П2
+        {0, 0,  0,  0,  0,  12, 0}, // П3
+        {9, 5,  0,  0,  4,  13, 15}, // П4
+        {0, 0,  0,  4,  0,  10, 8}, // П5
+        {0, 11, 12, 13, 10, 0,  0}, // П6
+        {7, 0,  0,  15, 8,  0,  0}  // П7
 };
 
 //       А  Б  В  Г  Д  Е  Ж
 const int target[SIZE][SIZE] = {
-        {0, 1, 1, 0, 0, 0, 0}, // A
-        {1, 0, 0, 1, 1, 0, 0}, // Б
-        {1, 0, 0, 1, 0, 1, 0}, // В
-        {0, 1, 1, 0, 1, 1, 0}, // Г
-        {0, 1, 0, 1, 0, 1, 1}, // Д
-        {0, 0, 1, 1, 1, 0, 1}, // Е
-        {0, 0, 0, 0, 1, 1, 0}  // Ж
+        {0, 1, 0, 0, 0, 0, 0}, // A
+        {1, 0, 1, 0, 0, 1, 1}, // Б
+        {0, 1, 0, 0, 0, 0, 1}, // В
+        {0, 0, 0, 0, 1, 0, 1}, // Г
+        {0, 0, 0, 1, 0, 1, 1}, // Д
+        {0, 1, 0, 0, 1, 0, 1}, // Е
+        {0, 1, 1, 1, 1, 1, 0}  // Ж
 };
+
 
 // степени вершин
 int sourceSum[SIZE];
@@ -63,26 +64,20 @@ void processPermutation(std::vector<int> arr) {
     }
     // здесь мы уже выполняем проверку, определённую заданием
 
-    // расстояние между Г и Д
-    int gdDistance = source[arr[3]][arr[4]];
-    // расстояние между Г и Е
-    int geDistance = source[arr[3]][arr[5]];
-    // расстояние между А и Б
-    int abDistance = source[arr[0]][arr[1]];
-    // если расстояние ГД меньше ГЕ, то комбинация нам подходит
-    if (gdDistance < geDistance) {
-        // получаем обратную перестановку
-        int *reverse = getReversePermutation(arr);
-        // названия вершин
-        const std::string names[SIZE] = {"A", "B", "C", "D", "E", "F", "G"};
-        // выводим названия вершин
-        for (int i = 0; i < SIZE; i++) {
-            std::cout << names[reverse[i]] << " ";
-        }
-        std::cout << std::endl;
-        // выводим расстояния
-        std::cout << abDistance << " " << gdDistance << " " << geDistance;
+
+    // получаем обратную перестановку
+    int *reverse = getReversePermutation(arr);
+    // названия вершин
+    const std::string names[SIZE] = {"A", "B", "C", "D", "E", "F", "G"};
+    // выводим названия вершин
+    for (int i = 0; i < SIZE; i++) {
+        std::cout << names[reverse[i]] << " ";
     }
+    std::cout << std::endl;
+    // выводим расстояния
+    int gjDistance = source[arr[6]][arr[3]];
+
+    std::cout << gjDistance << std::endl;
 
 }
 
@@ -103,7 +98,7 @@ int main() {
     std::vector<int> origin = {0, 1, 2, 3, 4, 5, 6};
     do {
         processPermutation(origin);
-    } while(std::next_permutation(origin.begin(), origin.end()));
+    } while (std::next_permutation(origin.begin(), origin.end()));
 
     return 0;
 }
