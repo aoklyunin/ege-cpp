@@ -14,7 +14,7 @@ const int m[SIZE][SIZE] = {
         {0, 0, 0, 0, 2, 0}, // F
 };
 
-
+// поиск кратчайшего пути
 int findMinDistance(int start, int end) {
     // заполняем расстояния от начальной вершины до рассматриваемой значениями -1
     int distances[SIZE];

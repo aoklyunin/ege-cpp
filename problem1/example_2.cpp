@@ -43,7 +43,7 @@ int *getReversePermutation(std::vector<int> arr) {
     return reverse;
 }
 
-
+// поиск кратчайшего пути
 int findMinDistance(int start, int end, std::vector<int> arr) {
     // заполняем расстояния от начальной вершины до рассматриваемой значениями -1
     int distances[SIZE];
