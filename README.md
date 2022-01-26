@@ -23,9 +23,9 @@
 
 ![Задание 1](problems/problem1/task1.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_1.cpp)
-
 Ответ: 10
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_1.cpp)
 
 ### Пример 2
 
@@ -38,9 +38,9 @@
 
 ![Задание 2](problems/problem1/task2.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_2.cpp)
-
 Ответ: 19
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_2.cpp)
 
 ### Пример 3
 
@@ -55,9 +55,9 @@
 
 ![Задание 3](problems/problem1/task3.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_3.cpp)
-
 Ответ: 9
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_3.cpp)
 
 ### Пример 4
 
@@ -69,9 +69,9 @@
 
 ![Задание 4](problems/problem1/task4.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_4.cpp)
-
 Ответ: 20
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_4.cpp)
 
 ### Пример 5
 
@@ -83,9 +83,9 @@
 
 ![Задание 5](problems/problem1/task5.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_5.cpp)
-
 Ответ: 46
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_5.cpp)
 
 ### Пример 6
 
@@ -97,9 +97,9 @@
 
 ![Задание 6](problems/problem1/task6.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_6.cpp)
-
 Ответ: 17
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_6.cpp)
 
 ### Пример 7
 
@@ -114,9 +114,9 @@ B в A дороги нет.
 
 ![Задание 7](problems/problem1/task7.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_7.cpp)
-
 Ответ: 6
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_7.cpp)
 
 ### Пример 8
 
@@ -130,9 +130,9 @@ B в A дороги нет.
 
 ![Задание 8](problems/problem1/task8.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_8.cpp)
-
 Ответ: 23
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_8.cpp)
 
 ### Пример 9
 
@@ -147,9 +147,9 @@ B в A дороги нет.
 
 ![Задание 9](problems/problem1/task9.png)
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_9.cpp)
-
 Ответ: 9
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1/example_9.cpp)
 
 [Задания для самостоятельного выполнения](problems/problem1/exercises.pdf)
 
