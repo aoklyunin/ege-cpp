@@ -1,7 +1,3 @@
-//
-// Created by Алексей on 26.01.2022.
-//
-
 #include <iostream>
 
 // главный метод программы
@@ -75,8 +71,8 @@ int main() {
 
     // выводим расстояния
     std::cout<<"current: " << currentPoint <<" " << names[currentPoint]<<std::endl;
-    for (int i = 0; i < SIZE; ++i) {
-        std::cout<<distances[i]<<" ";
+    for (int distance : distances) {
+        std::cout<<distance<<" ";
     }
     std::cout <<std::endl;
 
