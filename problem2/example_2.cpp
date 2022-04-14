@@ -29,7 +29,8 @@ int findLine(int xV, int yV, int zV, int wV, int f, std::vector<std::vector<int>
 
 // обработка перестановки
 static void processPermutation(std::vector<int> p) {
-    // найденные комбинации, их может быть максимум 16, потому что перменных 4, а 2^4=16
+    // список найденных операций, в данной задаче их три, поэтому и в вектор
+    // добавляем 3
     std::vector<std::vector<int>> combinations;
     combinations.reserve(3);
     for (int i = 0; i < 3; i++)
