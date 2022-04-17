@@ -30,3 +30,9 @@ add_executable(example_5_4 problem5/example_4.cpp)
 add_executable(example_5_5 problem5/example_5.cpp)
 add_executable(example_5_6 problem5/example_6.cpp)
 add_executable(example_5_7 problem5/example_7.cpp)
+
+
+add_executable(example_6_1 problem6/example_1.cpp)
+add_executable(example_6_1_task problem6/tasks/example_1.cpp)
+add_executable(example_6_2 problem6/example_2.cpp)
+add_executable(example_6_2_task problem6/tasks/example_2.cpp)
