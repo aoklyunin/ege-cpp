@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 
 // список перебираемых значений переменной boolean
 int booleanValues[] = {0, 1};
