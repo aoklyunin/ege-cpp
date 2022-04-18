@@ -152,7 +152,7 @@ int main() {
             targetSum[i] += target[i][j];
         }
     }
-
+    // для перестановок вектор должен быть отсортированным
     std::vector<int> origin = {0, 1, 2, 3, 4, 5, 6};
     do {
         processPermutation(origin);
