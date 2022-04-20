@@ -47,3 +47,15 @@ add_executable(example_12_1 problem12/example_1.cpp)
 add_executable(example_12_2 problem12/example_2.cpp)
 
 add_executable(example_14_1 problem14/example_1.cpp)
+add_executable(example_14_2 problem14/example_2.cpp)
+add_executable(example_14_3 problem14/example_3.cpp)
+
+add_executable(example_15_1 problem15/example_1.cpp)
+add_executable(example_15_2 problem15/example_2.cpp)
+add_executable(example_15_3 problem15/example_3.cpp)
+add_executable(example_15_4 problem15/example_4.cpp)
+add_executable(example_15_5 problem15/example_5.cpp)
+
+
+add_executable(example_16_1 problem16/example_1.cpp)
+add_executable(example_16_2 problem16/example_2.cpp)

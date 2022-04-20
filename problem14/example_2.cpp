@@ -3,7 +3,7 @@
 #include <algorithm>
 
 // основание системы счисления
-const int BASE = 7;
+const int BASE = 2;
 
 // после операций сложения и вычетания в начале вектора может появиться несколько
 // нулей, этот метод удаляет их
@@ -129,29 +129,29 @@ std::vector<int> valueOf(int a) {
     return res;
 }
 
-
 int main() {
     // первое большое число
-    std::vector<int> a = pow(7 * 2);
+    std::vector<int> a = pow(512 * 2);
     // второе большое число
-    std::vector<int> b = pow(21);
+    std::vector<int> b = pow(512 * 3);
     // третье большое число
-    std::vector<int> c = valueOf(7);
+    std::vector<int> c = pow(128);
+    // четвёртое большое число
+    std::vector<int> d = valueOf(250);
+    // результат
+    std::vector<int> r = minus(minus(plus(a, b), c), d);
 
-    // вычисляем результат
-    std::vector<int> r = minus(plus(a, b), c);
-
-    // кол-во шестёрок изначально равно нулю
-    int count6 = 0;
+    // кол-во нулей изначально равно нулю
+    int count0 = 0;
     // перебираем цифры числа
     for (int i: r) {
-        // если цифра равна 6
-        if (i == 6)
+        // если цифра равна 0
+        if (i == 0)
             // увеличиваем кол-во на 1
-            count6++;
+            count0++;
     }
-    // выводим кол-во шестёрок
-    std::cout << count6 << std::endl;
+    // выводим кол-во
+    std::cout << count0 << std::endl;
     return 0;
 }
 
