@@ -881,3 +881,40 @@ void F( int n )
 
 
 [Задания для самостоятельного выполнения](problems/problem1921/exercises.pdf)
+
+
+## Задание 22
+
+Получив на вход число x, этот алгоритм печатает два числа: L и M.
+
+```
+import java.util.Scanner;
+
+public class Task {
+    public static void main(String[] args) {
+        int x, L, M, Q;
+        Scanner scanner = new Scanner(System.in);
+        x = scanner.nextInt();
+        Q = 9;
+        L = 0;
+        while (x >= Q) {
+            L = L + 1;
+            x = x - Q;
+        }
+        M = x;
+        if (M < L) {
+            M = L;
+            L = x;
+        }
+        System.out.println(L);
+        System.out.println(M);
+    }
+}
+```
+
+
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem22/example_1.cpp)
+
+**Ответ: 30**
+
+[Задания для самостоятельного выполнения](problems/problem22/exercises.pdf)
