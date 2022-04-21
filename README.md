@@ -887,31 +887,29 @@ void F( int n )
 
 Получив на вход число x, этот алгоритм печатает два числа: L и M.
 
-```
-import java.util.Scanner;
+```cpp
+#include <iostream>
 
-public class Task {
-    public static void main(String[] args) {
-        int x, L, M, Q;
-        Scanner scanner = new Scanner(System.in);
-        x = scanner.nextInt();
-        Q = 9;
-        L = 0;
-        while (x >= Q) {
-            L = L + 1;
-            x = x - Q;
-        }
-        M = x;
-        if (M < L) {
-            M = L;
-            L = x;
-        }
-        System.out.println(L);
-        System.out.println(M);
+// главный метод программы
+int main() {
+    int x, L, M, Q;
+    std::cin >> x;
+    Q = 9;
+    L = 0;
+    while (x >= Q) {
+        L = L + 1;
+        x = x - Q;
     }
+    M = x;
+    if (M < L) {
+        M = L;
+        L = x;
+    }
+    std::cout << L << std::endl;
+    std::cout << M << std::endl;
+    return 0;
 }
 ```
-
 
 [Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem22/example_1.cpp)
 
