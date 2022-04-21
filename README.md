@@ -846,6 +846,9 @@ void F( int n )
 
 
 
+**Ответ: 18**
+
+
 [Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1921/example_1.cpp)
 
 ### Задание 20
@@ -858,6 +861,8 @@ void F( int n )
 
 Найденные значения запишите в ответе в порядке возрастания.
 
+**Ответ: 31 34**
+
 [Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1921/example_2.cpp)
 
 
@@ -869,6 +874,8 @@ void F( int n )
 любой игре Пети;
 
 – у Вани нет стратегии, которая позволит ему гарантированно выиграть первым ходом.
+
+**Ответ: 30**
 
 [Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem1921/example_3.cpp)
 
