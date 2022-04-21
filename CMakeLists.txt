@@ -70,3 +70,7 @@ add_executable(example_21 problem1921/example_3.cpp)
 
 add_executable(task_22 problem22/task_1.cpp)
 add_executable(example_22 problem22/example_1.cpp)
+
+add_executable(example_23_1 problem23/example_1.cpp)
+add_executable(example_23_2 problem23/example_2.cpp)
+add_executable(example_23_3 problem23/example_3.cpp)
