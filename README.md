@@ -1045,7 +1045,7 @@ $10^6$ символов X, Y и Z. Определите
 этих двух делителей. Делители в строке таблицы также должны следовать в порядке
 возрастания.
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem24/example_1.cpp)
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem25/example_1.cpp)
 
 **Ответ:**
 
@@ -1067,7 +1067,7 @@ $10^6$ символов X, Y и Z. Определите
 пять чисел, удовлетворяющих вышеописанному условию, справа от каждого числа вывести его максимальный делитель.
 
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem24/example_2.cpp)
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem25/example_2.cpp)
 
 **Ответ:**
 
@@ -1088,7 +1088,7 @@ $10^6$ символов X, Y и Z. Определите
 а затем сумму его наименьшего и наибольшего нетривиальных делителей.
 
 
-[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem24/example_3.cpp)
+[Исходник](https://github.com/aoklyunin/ege_cpp/blob/master/problem25/example_3.cpp)
 
 **Ответ:**
 
